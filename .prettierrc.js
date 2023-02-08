@@ -4,13 +4,13 @@ module.exports = {
   singleQuote: true,
   tabWidth: 2,
   semi: false,
-  trailingComma: "none",
+  trailingComma: 'none',
   overrides: [
     {
-      files: "*.sol",
+      files: '*.sol',
       options: {
-        compiler: "0.8.7",
-      },
-    },
-  ],
-};
+        compiler: '0.8.7'
+      }
+    }
+  ]
+}

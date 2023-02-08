@@ -28,24 +28,24 @@ const config: HardhatUserConfig = {
     tokenOwner: 1
   },
 
-  networks: {
-    // hardhat: {
-    //   forking: {
-    //     url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_ID}`,
-    //     blockNumber: 14000000
-    //   }
-    // },
-    goerli: {
-      accounts: PK ? [PK] : [],
-      chainId: 5,
-      url: `https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_ID}`
-    }
-    // mainnet: {
-    //   accounts: PK_MAINNET ? [PK_MAINNET] : [],
-    //   chainId: 1,
-    //   url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_ID}`
-    // }
-  },
+  // networks: {
+  //   // hardhat: {
+  //   //   forking: {
+  //   //     url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_ID}`,
+  //   //     blockNumber: 14000000
+  //   //   }
+  //   // },
+  //   goerli: {
+  //     accounts: PK ? [PK] : [],
+  //     chainId: 5,
+  //     url: `https://eth-goerli.g.alchemy.com/v2/${ALCHEMY_ID}`
+  //   }
+  //   // mainnet: {
+  //   //   accounts: PK_MAINNET ? [PK_MAINNET] : [],
+  //   //   chainId: 1,
+  //   //   url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_ID}`
+  //   // }
+  // },
   paths: {
     sources: 'contracts'
   },

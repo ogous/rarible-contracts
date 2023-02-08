@@ -25,9 +25,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -39,12 +37,8 @@
         "@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "KANJINFT"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["KANJINFT"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
       "lastModificationDate": 1675839887322,
@@ -70,9 +64,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -89,12 +81,8 @@
         "../../utils/Strings.sol",
         "../../utils/introspection/ERC165.sol"
       ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["ERC721"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1675839887273,
@@ -120,9 +108,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -130,15 +116,9 @@
           }
         }
       },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
+      "imports": ["../utils/Context.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["Ownable"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1675839887280,
@@ -164,9 +144,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -175,12 +153,8 @@
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Context"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["Context"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1675839887290,
@@ -206,9 +180,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -216,15 +188,9 @@
           }
         }
       },
-      "imports": [
-        "./math/Math.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Strings"
-      ]
+      "imports": ["./math/Math.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["Strings"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
       "lastModificationDate": 1675839887283,
@@ -250,9 +216,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -260,15 +224,9 @@
           }
         }
       },
-      "imports": [
-        "./IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC165"
-      ]
+      "imports": ["./IERC165.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["ERC165"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/Address.sol": {
       "lastModificationDate": 1675839887273,
@@ -294,9 +252,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -305,12 +261,8 @@
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.1"
-      ],
-      "artifacts": [
-        "Address"
-      ]
+      "versionPragmas": ["^0.8.1"],
+      "artifacts": ["Address"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
       "lastModificationDate": 1675839887324,
@@ -336,9 +288,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -346,15 +296,9 @@
           }
         }
       },
-      "imports": [
-        "../../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721"
-      ]
+      "imports": ["../../utils/introspection/IERC165.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC721"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
       "lastModificationDate": 1675839887324,
@@ -380,9 +324,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -391,12 +333,8 @@
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Receiver"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC721Receiver"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
       "lastModificationDate": 1675839887321,
@@ -422,9 +360,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -432,15 +368,9 @@
           }
         }
       },
-      "imports": [
-        "../IERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Metadata"
-      ]
+      "imports": ["../IERC721.sol"],
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC721Metadata"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
       "lastModificationDate": 1675839887286,
@@ -466,9 +396,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -477,12 +405,8 @@
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Math"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["Math"]
     },
     "/Users/oguzhanali/Development/rarible-marketplace-clone/smartContracts/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
       "lastModificationDate": 1675839887285,
@@ -508,9 +432,7 @@
                 "storageLayout",
                 "evm.gasEstimates"
               ],
-              "": [
-                "ast"
-              ]
+              "": ["ast"]
             }
           },
           "metadata": {
@@ -519,12 +441,8 @@
         }
       },
       "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC165"
-      ]
+      "versionPragmas": ["^0.8.0"],
+      "artifacts": ["IERC165"]
     }
   }
 }
