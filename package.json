@@ -1,0 +1,43 @@
+{
+  "name": "contracts",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "yarn compile && npx tsc",
+    "compile": "npx hardhat compile --force",
+    "deploy": "npx hardhat deploy",
+    "format": "prettier --write '*/**/*.*{js,sol,json,md,ts}'",
+    "format:check": "prettier --check '*/**/*.*{js,sol,json,md,ts}'",
+    "lint": "eslint --cache . && yarn lint:sol",
+    "lint:ts": "eslint -c .eslintrc.json --ext \"**/*.ts\" \"**/*.test.ts\"",
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "postinstall": "yarn husky install",
+    "test": "npx hardhat test",
+    "verify": "npx hardhat etherscan-verify"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@tsconfig/recommended": "^1.0.2",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.33.0",
+    "ethereum-waffle": "^4.0.9",
+    "ethers": "^6.0.2",
+    "hardhat": "^2.12.6",
+    "hardhat-deploy": "^0.11.23",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.8.4",
+    "solhint": "^3.3.8",
+    "solhint-plugin-prettier": "^0.0.5",
+    "solidity-coverage": "^0.8.2",
+    "typechain": "^8.1.1",
+    "typescript": "^4.9.5"
+  }
+}
